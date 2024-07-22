@@ -8,6 +8,8 @@ import {
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
+import { Alert } from './components/Alert';
+
 import NoteState from './context/notes/NoteState';
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
     <NoteState>
       <Router>
         <Navbar /> 
+        <Alert message="This is amazing React course" />
         <div className="container"></div>
         <Routes> {}
           <Route path="/" element={<Home />} /> {}

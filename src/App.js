@@ -1,4 +1,3 @@
-
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -8,7 +7,9 @@ import {
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
-import { Alert } from './components/Alert';
+import Alert from './components/Alert';
+import Signup from './components/Signup';
+import Login from './components/Login';
 
 import NoteState from './context/notes/NoteState';
 
@@ -18,12 +19,15 @@ function App() {
     <NoteState>
       <Router>
         <Navbar /> 
-        <Alert message="This is amazing React course" />
-        <div className="container"></div>
-        <Routes> {}
-          <Route path="/" element={<Home />} /> {}
-          <Route path="/about" element={<About />} /> {}
-        </Routes>
+        <Alert message="This is an amazing React course" />
+        <div className="container">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<Signup />} />
+          </Routes>
+        </div>
       </Router>
       </NoteState>
     </>

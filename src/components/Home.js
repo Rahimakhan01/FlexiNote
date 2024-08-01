@@ -1,11 +1,14 @@
-import Notes from './Notes'; // Correct the import path
+import Notes from './Notes';
 
-export const Home = () => {
-    return (
-        <div>
-            <Notes/>
+const Home =(props) => {
+	const {showAlert} = props;
+	
+	return (
+		<div>
+			
+			<Notes showAlert = {showAlert}/>
+        
         </div>
-    )
+	)
 }
-
-export default Home;
+export default Home

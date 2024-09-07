@@ -91,4 +91,20 @@ Once the application is running, navigate through the different routes:
 
 ---
 
+## Interface Screenshots
+
+
+![Screenshot 2024-09-07 155409](https://github.com/user-attachments/assets/66c4046a-babc-47cc-8c6a-c6277d5e6528)
+
+![Screenshot 2024-09-07 155429](https://github.com/user-attachments/assets/08036804-b9e3-42c4-87ef-5ec4e2291f87)
+
+![Screenshot 2024-09-07 155457](https://github.com/user-attachments/assets/6eebfe50-81c8-4ee7-a05e-eebf19a05072)
+
+
+![Screenshot 2024-09-07 155523](https://github.com/user-attachments/assets/718f33e6-140f-4622-9a2f-8b91e8d836f3)
+
+
+![Screenshot 2024-09-07 155601](https://github.com/user-attachments/assets/9b83c513-8607-4927-b369-1ea0b8a5822c)
+
+
 

@@ -5,7 +5,7 @@ const About = () => {
 		<div className="container mx-2 my-2 mt-2">
 			<div className="boxed ">
 				<div className="container mx-2 my-5 ">
-					<h3>Features of iNotebook</h3>
+					<h3>Features of FlexiNote</h3>
 					<p>
 						<h5>Usability,durability and accessibility : </h5> You can store
 						your data permanently it doesn't affacted by natural activity such

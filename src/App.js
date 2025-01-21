@@ -4,6 +4,7 @@ import {
   Routes, 
   Route
 } from "react-router-dom";
+
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
@@ -20,7 +21,7 @@ function App() {
       <Router>
         <Navbar /> 
         <Alert message="This is an amazing React course" />
-        <div className="container">
+        <div className="container" style={{ backgroundColor: '#ADEEE3', minHeight: '100vh' }}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
